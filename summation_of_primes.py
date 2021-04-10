@@ -1,3 +1,4 @@
+#Q. Find the sum of all the primes below two million.
 counter = 2
 prime = 0
 notprime = 0
@@ -9,3 +10,4 @@ while counter < 2000000:
         prime = prime + counter
     counter += 1
 print(prime)
+#Answer = 
