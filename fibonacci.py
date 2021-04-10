@@ -1,3 +1,4 @@
+#Q. By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 total = 0
 array = []
 array.append(1)
@@ -8,4 +9,4 @@ for i in range (0, 50):
     if (array[i] % 2 == 0) and (array[i] <= 4000000):
         total = total + array[i]
 print(total)
-#4613732
+#Answer = 4613732
