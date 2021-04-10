@@ -1,3 +1,4 @@
+#Q. What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 answer = False
 number = 20
 while answer == False:
@@ -11,18 +12,5 @@ while answer == False:
     if counter == 20:
         print(number)
         answer = True
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  #Answer = 232792560
+        
