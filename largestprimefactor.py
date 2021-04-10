@@ -1,3 +1,5 @@
+#Q. What is the largest prime factor of the number 600851475143 ?
+
 Number = input("Number: ")
 number = int(Number)
 counter = 0
@@ -23,9 +25,7 @@ for i in range(0, len(factor)):
         prime.append(factor[i])
 print(int(prime[0]), "is the largest prime factor.")
     
-#for 644 the answer is 23
-#for 13195 the answer is 29
-#for 600851475143 the answer is 6857
+#Answer = 6857
 
 
 
