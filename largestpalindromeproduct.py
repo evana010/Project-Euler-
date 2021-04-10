@@ -1,3 +1,5 @@
+#Q. Find the largest palindrome made from the product of two 3-digit numbers
+
 numbers = []
 palindromic = []
 #cycles through all three digit numbers, multiplies them then puts them into an array
@@ -23,3 +25,4 @@ for j in range (0, len(palindromic) - 1):
             palindromic[i + 1] = temp
 print(palindromic[len(palindromic) - 1])
 
+#Answer = 906609
