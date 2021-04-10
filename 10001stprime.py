@@ -1,3 +1,5 @@
+#Q. What is the 10001st prime number?
+
 counter = 2
 prime = 0
 notprime = 0
@@ -12,6 +14,5 @@ while prime_counter < 10001:
     counter += 1
 print(prime)
 
-#541 is the 100th prime number
-#13 is the 6th
+#Answer = 104743
 
